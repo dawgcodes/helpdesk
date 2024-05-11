@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://reedroux.biz/support">
-    <img src="" alt="Reedroux" >
+    <img src="https://reedroux.biz/favicon.ico" alt="Reedroux" >
   </a>
 
   <h1 align="center">Reedroux's Helper</h1>
