@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+	  "strict": true,
+	  "module": "commonjs",
+	  "target": "es2020",
+	  "sourceMap": false,
+	  "outDir": "dist",
+	  "experimentalDecorators": true,
+	  "emitDecoratorMetadata": true,
+	  "esModuleInterop": true
+	},
+	"exclude": [
+	  "node_modules",
+	  "tests"
+	]
+  }
+  

@@ -1,0 +1,387 @@
+# This is the token for your discord bot. It is required.
+# You can get it from the Discord Developer Portal @ https://discord.com/developers/applications/.
+token: "MTA3MjIzMTc0MjQ4NTgyNzY1NA.GZnAB7.Dz-bEdpmHnSDdvz_5aohUTscGAKvX5TON4Scmw"
+
+# Rich Presence Activity Setting
+presence_activity:
+  # set presence activity settings for bot
+  activity1: "Reedroux"
+  activity2: "Suggestions 💖"
+  activity3: "24/7 music 💖"
+  activity_type: 4 # 0 = PLAYING, 1 = STREAMING, 2 = LISTENING, 3 = WATCHING, 4 = CUSTOM. 5 = COMPETING
+  stream_url: "https://www.youtube.com/watch?v=MLmiZ372Mkg" # set stream url activity, support youtube, twitch only
+  status: "invisible" # online, idle, dnd, invisible
+  custom_status: "Reedroux Helpers" # set custom status if type is 4
+
+# This is a list of the IDs of the users who can use the bot.
+# You can get a your/any user's ID by enabling developer mode in Discord and right clicking on your/their name.
+owners:
+  - "878333437667344424"
+  
+# The ID of the channel where button press logs will be sent.
+# Optional - leave empty ("") to disable.
+log_channel_id: "1238669874780176485"
+
+embed1_content:
+  title: "Welcome to Reedroux's support server!"
+  desc: "**Reedroux's the Discord music bot that's 100% free with no payment or votes required to access all its amazing functionalities.**"
+  footer: "Thank you for choosing Reedroux's as your personal Music Bot!"
+  # The hex code for your embed color.
+  color: "f4e0c7"
+
+  image:
+    # Toggles whether or not the image is enabled.
+    enabled: false
+    # The URL of the image. Required if `enabled` parameter is true.
+    url: "..."
+  thumbnail:
+    # Toggles whether or not the thumbnail is enabled.
+    enabled: true
+    # The URL of the thumbnail. Required if `enabled` parameter is true.
+    url: "https://cdn.is-a.fun/madebytragic/t_mews.png"
+
+# Configuration for the embed generated upon running /create.
+embed2_content:
+  # The title of the embed.
+  title: "Reedroux's Help desk"
+
+  # The hex code for your embed color.
+  color: "f4e0c7"
+
+  addfields:
+    enabled: true
+    fields:
+      - name: "Website"
+        value: "**[reedroux.biz](https://reedroux.biz)**"
+        inline: true
+      - name: "Type"
+        value: "**Music Bot**"
+        inline: true
+      - name: "Vote Me"
+        value: "**[Top.gg](https://top.gg/bot/1066057160125059112/vote)**"
+        inline: true
+
+  image:
+    # Toggles whether or not the image is enabled.
+    enabled: true
+    # The URL of the image. Required if `enabled` parameter is true.
+    url: "https://cdn.is-a.fun/bot/mewwme/mehelp.png"
+
+  thumbnail:
+    # Toggles whether or not the thumbnail is enabled.
+    enabled: false
+    # The URL of the thumbnail. Required if `enabled` parameter is true.
+    url: ""
+
+# A list of questions visible in the helpdesk embed along with their respective responses.
+# You can add up to 10.
+questions:
+  - question: "**What is Reedroux's?**"
+    response:
+      # The title of the response embed.
+      title: "Those who wish to sing always find a song ♪"
+      # The hex code for your embed color.
+      color: "f4e0c7"
+      # The description of the response embed.
+      description: |
+        **The Discord music bot that's 100% free with no payment or votes required to access all its amazing functionalities.**
+
+        **Why Reedroux?**
+        - **Regular Updates:** *Reedroux is constantly updated, ensuring you always get the best of the latest features and fixes.*
+        - **Comprehensive Features:** *Reedroux not only offers a plethora of features but also ensures all these features are accessible without any cost or the need for voting or subscribing.*
+        - **Dedicated support community:** *We're a relatively new bot on Discord, and we'd love for you to join us! Ensuring that the bot runs smoothly is our priority, which is why we need your help with feedback and suggestions. If you have any questions, feel free to open a support ticket.*
+
+        **Useful Links**
+        - https://reedroux.biz
+        - https://docs.reedroux.biz
+        - https://reedroux.biz/support
+        - https://reedroux.biz/support
+        - https://top.gg/bot/1066057160125059112
+        - https://reedroux.biz/premium
+
+        **Hosted by HIDDEN CATFEIN**
+        - https://reedroux.biz/support
+
+        **Need Support?**
+        - Submit a ticket for additional assistance dm <@1071885408885014638>
+
+        **What are you waiting for? Invite Reedroux to your Discord server today and enjoy an unparalleled, limitless music experience! [Click here to invite](https://reedroux.biz/invite).**
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: true
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: "https://cdn.is-a.fun/bot/mewwme/mecmd.png"
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+
+  - question: "**How to invite Reedroux's Music Bot?**"
+    response:
+      # The title of the response embed.
+      title: "Adding Reedroux to your server"
+      # The hex code for your embed color.
+      color: "f4e0c7"
+      # The description of the response embed.
+      description: |
+        **You can invite Reedroux using this [link](https://reedroux.biz/invite).** 
+        Choose the server you want to add it to and click **Authorize**.
+
+        ```Do note that if you want to disable Administrator permissions for Reedroux, it may affect its functionality. While you'll still be able to access basic music features, some functionalities may not work properly.```
+
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "**How to use Reedroux's Music Bot?**"
+    response:
+      # The title of the response embed.
+      title: "Using Reedroux"
+      # The hex code for your embed color.
+      color: "f4e0c7"
+      # The description of the response embed.
+      description: |
+        Join a voice or a stage channel then type </play:1133048634318012471> <name song/url's> in a text channel.
+        You can interact directly using the control buttons for stop, loop etc.
+        Type / (or </help:1133048636058648608>) and select Reedroux's icon to get a list of all available commands.
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "**How to enable the 24/7 feature?**"
+    response:
+      # The title of the response embed.
+      title: "Enabling the 24/7 mode"
+      # The hex code for your embed color.
+      color: "f4e0c7"
+      # The description of the response embed.
+      description: |
+        Join a voice or a stage channel then type </247:1171400226892951581> <enable/disable> in a text channel.
+
+        **Note:** *This feature can be utilized if you have the `manage server` permission, and it's ensured beforehand that the bot is currently playing music.*
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "**Reedroux is not responding/offline.**"
+    response:
+      # The title of the response embed.
+      title: "Why is Reedroux not responding to my commands?"
+      # The hex code for your embed color.
+      color: "f4e0c7"
+      # The description of the response embed.
+      description: |
+        You're trying to use a command but it keeps failing? Well, it's probably not able to answer, but follow the steps below to fix this.
+
+        **Reedroux now uses slash commands!**
+        Make sure you're using commands as Discord now requires all bots to use them.
+        Get started by typing and 
+
+        **Reedroux still doesn't seem to answer?**
+        The only remaining scenario in that situation is a problem either on Discord's or our side. Verify that Reedroux is not offline in your server. If it's offline, your best call would be to wait up to 5 minutes and see if Mewwme comes back online. If it's online, has all the required permissions, you should definitely get in contact with one of our support members.
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "**Reedroux's audio quality sounds laggy**."
+    response:
+      # The title of the response embed.
+      title: "Why is Reedroux's audio sounding laggy/glitchy?"
+      # The hex code for your embed color.
+      color: "f4e0c7"
+      # The description of the response embed.
+      description: |
+        No one likes laggy music, but that sometimes happens when listening to music bots on Discord. Here are some possible solutions to help you fix that.
+
+        *What should I do?**
+        First of all you should check your internet connection. Discord displays your last and average ping in the bottom left corner, just click on "Voice Connected" and verify that your ping is behaving stable (if the red graph is stuttering a lot that means it's not stable!) and the last as well as the average ping is below 250 milliseconds. If both of these indicators show that your connection is bad you should try and check your WiFi/LAN. Restarting your router could also clean up some problems.
+
+        **You're on a 5ms ping and you can download GTA 5 in 2 minutes?**
+        So your internet connection seems not to be the problem. In 95% of the cases where Mewwme is lagging Discord is having temporary issues with their voice servers. They normally just restart them at some point but you could force a switch to a different server in your region.[Try switching your server region](https://support.discord.com/hc/en-us/articles/1500007645701-Voice-Regions-on-Discord-FAQ#h_01F3RXJ4YCHYS652ETKWJ499Y3) in order to get a new and fresh Discord voice server.
+        If you're still having the same issue feel free to type </report:1193330016856051787> report your issue.
+
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "**How to set up the request channel songs?**"
+    response:
+      # The title of the response embed.
+      title: "Setting up songs in the request channel"
+      # The hex code for your embed color.
+      color: "f4e0c7"
+      # The description of the response embed.
+      description: |
+        **How do I create a request channel?**
+        Make sure Reedroux is granted `manage server` permission then type </setup:1212169679510962226> with the `create` option then the bot will automatically create a special channel for song requests.
+
+        ```Note: Do not delete any message(s) Reedroux created in order for me to work properly.```
+
+        **How do I delete a request channel?**
+        As before only in the options you can select `delete`.
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "**Reedroux keeps saying it's missing permissions.**"
+    response:
+      # The title of the response embed.
+      title: "Why keeps saying it's missing permissions?"
+      # The hex code for your embed color.
+      color: "f4e0c7"
+      # The description of the response embed.
+      description: |
+        When trying to run certain commands, Reedroux may lack certain permissions. In such cases, Reedroux will refuse to run the command until these issues are resolved. It's important to note that these permissions are not optional; Mewwme requires them to perform the command.
+
+        If you believe the bot has the necessary permissions, make sure to check the channel's role overrides. These overrides can modify role permissions in specific channels.
+
+        If you are still unable to determine why Reedroux does not have the required permissions, consider giving Reedroux the Administrator permission. This should resolve any Discord permission issues.
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "**Reedroux disconnects from the voice channel on its own.**"
+    response:
+      # The title of the response embed.
+      title: "Reedroux disconnects from the voice channel on its own."
+      # The hex code for your embed color.
+      color: "f4e0c7"
+      # The description of the response embed.
+      description: |
+        In very uncommon cases, even with the 24/7 mode enabled, Reedroux may disconnect from the voice channel without someone using /stop or Discord's Disconnect button. Some of the most common causes and a potential fix are listed below.
+
+        **24/7 mode is not enabled.**
+        By default, Reedroux disconnects from the voice channel when it's empty in 3 minutes.
+
+        **Fix:** Refer to "4. How to enable the 24/7 feature?" in the first help embed to enable the 24/7 mode.
+
+        **Missing permissions.**
+        Whenever Discord asks us to reconnect to a voice channel, either due to server restarts or an API outage, we double-check the bot permissions to make sure it can join and speak in the channel. If something is missing, you'll have to use </play:1133048634318012471> again to invite the bot to a different channel or the same one after adding the required permissions.
+
+        **Fix:** Make sure to use the </play:1133048634318012471> commands to add the bot to the voice channel instead of moving it from a different one. By doing that, you'll ensure that the bot has all the required permissions to reconnect when needed.
+
+        **Server Region issues.**
+        In certain cases, some voice regions may experience network and stability issues that could prevent the bot from joining the voice channel.
+
+        **Fix:** Switch to another voice region using the voice channel settings (choose the one closest to your country).
+
+        **Something else went wrong.**
+        If you've tried all of the above fixes and the issue persists, please type `report` or open ticket in support <@1071885408885014638>
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
+  - question: "**How do I get/activate Premium and what perks do I receive?**"
+    response:
+      # The title of the response embed.
+      title: "Reedroux Premium Perks"
+      # The hex code for your embed color.
+      color: "f4e0c7"
+      # The description of the response embed.
+      description: |
+        **At the moment, there is no Premium Plan for Reedroux music bot as all its features are completely free without requiring any payment or voting. However, if you're interested in customizing Mewwme music bot, you might be intrigued by the offers i provide.**
+
+        **Custom bot perks:**
+        **Bot Online 24/7.**
+        **Custom bot avatar.**
+        **Custom bot name.**
+        **Fully customizable bot status and activity.**
+        **Custom own prefix bot.**
+        **Custom own public or private.**
+        **Custom emojis.**
+        **Custom radio FM stations.**
+        **Unlocking all features, (prefix & slash commands).**
+
+        **Base premium perks:**
+        **24/7 Music Playback.**
+        **Volume controls.**
+        **Create welcomer images for your server.**
+        **Unlimited music playlists.**
+        **Added 25+ filter menu.**
+        **Higher quality audio.**
+        **HTTP stream stations.**
+        **Lower commands cooldown.**
+        **Early access to Reedroux's new features.**
+        **Priority support.**
+
+        **How to get my own custom bot?**
+        **By becoming a member on our [Patreon page](https://reedroux.biz/premium).**
+
+      image:
+        # Toggles whether or not the image is enabled.
+        enabled: false
+        # The URL of the image. Required if `enabled` parameter is true.
+        url: ""
+
+      thumbnail:
+        # Toggles whether or not the thumbnail is enabled.
+        enabled: false
+        # The URL of the thumbnail. Required if `enabled` parameter is true.
+        url: ""
