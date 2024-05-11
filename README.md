@@ -18,7 +18,7 @@
 
 ## Showcase
 
-![example](https://github.com/reedroux/helpdesk/blob/main/.github/assets/reedroux-helper.png)
+![example](https://github.com/dawgcodes/helpdesk/blob/main/reedroux-helper.png)
 
 ## Requirements
 
